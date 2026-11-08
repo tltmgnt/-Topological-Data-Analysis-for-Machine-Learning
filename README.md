@@ -98,3 +98,7 @@ python -m unittest discover -s tests -v
 The 13 tests cover known square/triangle barcodes, half-open intervals, duplicates, cutoff censoring, H0 against an independent Kruskal minimum-spanning-tree computation on 20 random clouds, geometric invariance and scaling, feature schemas, train-only scaling, reproducible held-out classification, input limits, and CLI JSON/SVG exports. CI installs the package and runs tests and examples on Python 3.10, 3.12, and 3.13.
 
 Licensed under Apache 2.0; see [LICENSE](LICENSE).
+
+## ResearchOS / TECT assurance layer
+
+This repository includes the shared v0.1 research controller, a scoped executable domain pilot, replayable evidence/decision bundles, adversarial regression probes, and explicit unassured outcomes. See [the workflow](docs/RESEARCHOS.md), [versioned semantics](docs/TECT_SPEC.md), and [research-program traceability](docs/TECT_RESEARCH_PLAN.md). Existing domain results retain their documented limits. No claim state authorizes external or clinical execution.
