@@ -1,0 +1,158 @@
+[
+  {
+    "id": "square0",
+    "label": "square",
+    "cloud": {
+      "schema_version": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "max_edge_length": 5
+    }
+  },
+  {
+    "id": "square1",
+    "label": "square",
+    "cloud": {
+      "schema_version": 1,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.1,
+          0.0
+        ],
+        [
+          1.1,
+          1.1
+        ],
+        [
+          0.0,
+          1.1
+        ]
+      ],
+      "max_edge_length": 5
+    }
+  },
+  {
+    "id": "square2",
+    "label": "square",
+    "cloud": {
+      "schema_version": 1,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.9,
+          0.0
+        ],
+        [
+          0.9,
+          0.9
+        ],
+        [
+          0.0,
+          0.9
+        ]
+      ],
+      "max_edge_length": 5
+    }
+  },
+  {
+    "id": "line0",
+    "label": "line",
+    "cloud": {
+      "schema_version": 1,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "max_edge_length": 5
+    }
+  },
+  {
+    "id": "line1",
+    "label": "line",
+    "cloud": {
+      "schema_version": 1,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.1,
+          0.0
+        ],
+        [
+          2.2,
+          0.0
+        ],
+        [
+          3.3000000000000003,
+          0.0
+        ]
+      ],
+      "max_edge_length": 5
+    }
+  },
+  {
+    "id": "line2",
+    "label": "line",
+    "cloud": {
+      "schema_version": 1,
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.9,
+          0.0
+        ],
+        [
+          1.8,
+          0.0
+        ],
+        [
+          2.7,
+          0.0
+        ]
+      ],
+      "max_edge_length": 5
+    }
+  }
+]
