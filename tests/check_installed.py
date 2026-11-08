@@ -7,3 +7,7 @@ with tempfile.TemporaryDirectory() as directory:
         r=subprocess.run(args,cwd=directory,capture_output=True,text=True,check=True)
         assert json.loads(r.stdout)['execution_authorized'] is False
 print('Installed domain CLI passed outside source tree')
+
+with tempfile.TemporaryDirectory() as directory:
+    result=subprocess.run(["tda-ml","benchmark",str(ROOT/"examples/learning.json")],cwd=directory,capture_output=True,text=True,check=True)
+    assert json.loads(result.stdout)["independent_sample_origins_verified"] is False
