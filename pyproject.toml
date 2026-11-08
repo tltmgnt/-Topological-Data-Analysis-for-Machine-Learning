@@ -12,7 +12,11 @@ license = {text = "Apache-2.0"}
 dependencies = []
 
 [project.scripts]
+researchos = "researchos.__main__:main"
 tdaml = "tdaml.__main__:main"
 
 [tool.setuptools.packages.find]
-include = ["tdaml*"]
+include = ["tdaml*", "researchos*"]
+
+[tool.setuptools.package-data]
+researchos = ["*.json"]
