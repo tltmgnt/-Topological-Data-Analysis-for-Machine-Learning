@@ -38,3 +38,7 @@ See [current implementation and shared-core integration](docs/portfolio/INTEGRAT
 `tda-ml benchmark examples/learning.json` compares topological features with mean/max pairwise-distance features using leave-one-out nearest centroids and training-only scaling. The included shapes are synthetic examples, not an external test set or evidence of improved machine learning. The Python API is `tda_ml.learning.compare`.
 
 **∞**
+
+## Topology compatibility and curriculum
+
+See the [repository-specific v2 curriculum](docs/portfolio/TOPOLOGY_CURRICULUM_V2.md) for topology choices, worked explanations, a graded laboratory and adoption boundaries. Run the offline answer key from this repository root:\n\n```sh\npython curriculum/lab.py --verify\n```\n\n[Expected answers](curriculum/expected.json) · [Recorded local validation](curriculum/VALIDATION.json). The guide states any existing dependency needed for the lab.
