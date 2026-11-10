@@ -1,0 +1,74 @@
+{
+  "case_count": 8,
+  "cases": [
+    {
+      "actual": [
+        4,
+        0
+      ],
+      "case": "before edges: four components",
+      "expected": [
+        4,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "actual": [
+        1,
+        1
+      ],
+      "case": "square edges: one component and one loop",
+      "expected": [
+        1,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "actual": 1.0,
+      "case": "loop born at unit edge",
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "actual": true,
+      "case": "unpaired interval is censored",
+      "expected": true,
+      "passed": true
+    },
+    {
+      "actual": [
+        1,
+        0
+      ],
+      "case": "diagonals and triangles fill square",
+      "expected": [
+        1,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "actual": 2.0,
+      "case": "death at square-root two",
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "actual": "ValueError",
+      "case": "nonfinite geometry rejected",
+      "expected": "ValueError",
+      "passed": true
+    },
+    {
+      "actual": false,
+      "case": "no execution authority",
+      "expected": false,
+      "passed": true
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Synthetic curriculum checks only",
+  "status": "PASS"
+}
