@@ -33,3 +33,6 @@ jobs:
           path: runs/reference/
           retention-days: 7
           if-no-files-found: error
+      - run: tdaml examples/circle.json --output output/report.json --svg output/barcode.svg
+      - run: python -m examples.classify
+      - run: python -c "from tdaml.domain import check; assert check()['passed']"

@@ -1,5 +1,5 @@
 [build-system]
-requires=["setuptools>=61"]
+requires=["setuptools>=68"]
 build-backend="setuptools.build_meta"
 [project]
 name="tda-ml"
@@ -9,9 +9,10 @@ description="Bounded TDA and machine learning with replayable research evidence"
 readme="README.md"
 license={text="Apache-2.0"}
 [project.scripts]
+tdaml="tdaml.__main__:main"
 tda-ml="tda_ml.__main__:main"
 researchos="researchos.__main__:main"
 [tool.setuptools.packages.find]
-include=["tda_ml*","researchos*"]
+include=["tdaml*","tda_ml*","researchos*"]
 [tool.setuptools.package-data]
 researchos=["*.json"]
