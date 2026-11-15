@@ -1,22 +1,18 @@
 [build-system]
-requires = ["setuptools>=68"]
-build-backend = "setuptools.build_meta"
-
+requires=["setuptools>=68"]
+build-backend="setuptools.build_meta"
 [project]
-name = "tdaml"
-version = "0.1.0"
-description = "Persistent H0/H1 and fixed-schema topological machine learning features"
-readme = "README.md"
-requires-python = ">=3.10"
-license = {text = "Apache-2.0"}
-dependencies = []
-
+name="tda-ml"
+version="0.1.0"
+requires-python=">=3.10"
+description="Bounded TDA and machine learning with replayable research evidence"
+readme="README.md"
+license={text="Apache-2.0"}
 [project.scripts]
-researchos = "researchos.__main__:main"
-tdaml = "tdaml.__main__:main"
-
+tdaml="tdaml.__main__:main"
+tda-ml="tda_ml.__main__:main"
+researchos="researchos.__main__:main"
 [tool.setuptools.packages.find]
-include = ["tdaml*", "researchos*"]
-
+include=["tdaml*","tda_ml*","researchos*"]
 [tool.setuptools.package-data]
-researchos = ["*.json"]
+researchos=["*.json"]

@@ -1,0 +1,22 @@
+{
+  "case_count": 8,
+  "command": "python curriculum/lab.py --verify",
+  "exit_code": 0,
+  "expected_sha256": "c174d7e2063467ee1000529b3172b127746c826b2b191fea21f4d0438e837ccc",
+  "lab_sha256": "0cc8d7d539d233413f88c1c1c47ff3bd53c1bfec88274b1b8c6fdc1a471ae8fa",
+  "python": "3.12.14",
+  "repository": "tltmgnt/-Topological-Data-Analysis-for-Machine-Learning",
+  "schema_version": 1,
+  "scope": "Local synthetic curriculum validation on the recorded source snapshot; not complete repository CI, learning outcomes, independent scientific reproduction or deployment approval",
+  "source_and_fixture_sha256": {
+    "examples/learning.json": "8b20f0b50392449a293d032dddd9785f58b6fcf74acf69e0a21c94fcf6fb54a2",
+    "examples/reference.json": "98bb099e375cf0c7cbb879dbfc8dd67298ef0a626733e5406f73ce059b0c6be6",
+    "tda_ml/__init__.py": "b7fb27670be8abe848bfc00d6210bf824ff46b64262e7e5eee0077c8ebc5b761",
+    "tda_ml/__main__.py": "6b4dbf9cf4a6ceb9cc751f7faec9780035ce168370c43a82d108e800c72d04f6",
+    "tda_ml/analysis.py": "54447cf1a6f99f7c5af677fc5bc08dcbd7a3a907507cc2dc9901551143c553ce",
+    "tda_ml/io.py": "a2c9daca91107ad0dc0996d0fcdc53c0d288fb7f6b96508a9d75a257216bfb02",
+    "tda_ml/learning.py": "305c63d97b32d70e61cf4a9bb8129334e10bf7d377d365aa3f9ffa9f882d9ef6"
+  },
+  "source_base_commit": "3b53a58be5103e19f0ae9dbcfd9bea02099accc7",
+  "wrong_expectation_exit_code": 1
+}

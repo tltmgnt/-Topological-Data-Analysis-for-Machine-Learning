@@ -1,0 +1,3 @@
+[console_scripts]
+researchos = researchos.__main__:main
+tda-ml = tda_ml.__main__:main
