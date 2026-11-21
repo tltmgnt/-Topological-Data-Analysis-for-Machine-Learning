@@ -167,3 +167,7 @@ agreement and scoped advisory decisions. Includes synthetic tests and a proposed
 blinded pilot; independent empirical validation and live controller integration
 remain outstanding.
 <!-- pea-assurance:end -->
+
+## Terrain and market connectivity lab
+
+Start with the terrain lesson to study degree-zero sublevel connectivity on a grid. The filtration parameter here is cell elevation. In the point-cloud lab it is edge length. Explain why a persistence value in metres of elevation answers a different question from a point-cloud distance interval. [Standalone course and exercises](curriculum/terrain_market_resilience/README.md)
